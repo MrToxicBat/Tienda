@@ -36,6 +36,27 @@ body{
     margin-bottom: 30px;
 }
 
+.circulo{
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    margin-top: 68%;
+    margin-left: 5px;
+}
+
+#circulo-1{
+    background-color: rgb(39, 177, 71);
+}
+
+#circulo-2{
+    background-color: rgb(244, 82, 71);
+}
+
+#circulo-3{
+    background-color: rgb(10, 75, 239);
+}
+
+
 img{
     width: 250px;
     height: 250px;
@@ -60,6 +81,7 @@ img{
 .Precio{
     font-size: 25px;
     margin-top: 20px;
+    font-weight: 600;
 }
 
 .boton{
@@ -144,6 +166,21 @@ a{
 }
 
 #caja-3:hover #boton-3{
+    background-color: black;
+    transition: 0.5s;
+}
+
+#caja-1:hover #circulo-1{
+    background-color: black;
+    transition: 0.5s;
+}
+
+#caja-2:hover #circulo-2{
+    background-color: black;
+    transition: 0.5s;
+}
+
+#caja-3:hover #circulo-3{
     background-color: black;
     transition: 0.5s;
 }
